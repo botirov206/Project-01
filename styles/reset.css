@@ -1,0 +1,58 @@
+/* Basic CSS reset styles */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Remove defoult list styles */
+ul, ol {
+    list-style: none;
+}
+
+/* Normalize links */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Reset images */
+img {
+    min-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Remove default button styles */
+button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    font: inherit;
+}
+
+/* Normalize form elements */
+input, textarea, select {
+    font: inherit;
+    border: none;
+    outline: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+/* Remove default table spacing  */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Ensure body has no default margin */
+body {
+    line-height: 1;
+    font-family: sans-serif;
+}

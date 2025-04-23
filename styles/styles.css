@@ -1,0 +1,77 @@
+:root {
+    /* For backround color */
+    --button-primary: #1671D9;
+
+
+
+    /* Colors */
+    --text-color-white: #FFFFFF;
+    --text-color-creamy: #E0E1E3;
+    --text-color-dark: #000000;
+    --text-color-blue: #1671D9;
+    --text-color-blueish: #485467;
+
+    
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    padding: 28px 0 28px 0;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    gap: 265px;
+    align-items: center;
+}
+
+.nav-items {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    padding: 10px;
+    align-items: center;
+}
+
+ul li {
+    cursor: pointer;
+    color: var(--text-color-dark);
+    font-size: 16px;
+    font-weight: 500px;
+}
+
+.logo p {
+    font-size: 32px;
+    font-weight: 700;
+    cursor: pointer;
+    color: var(--text-color-dark);
+}
+
+.button-primary {
+    background-color: var(--button-primary);
+    color: var(--text-color-white);
+    padding: 12px 24px 12px 24px;
+    border-radius: 8px;
+}
+
+.caption {
+    display: flex;
+    align-items: center;
+    color: var(--text-color-blue)
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+}
+
+.icon img {
+    color: var(--text-color-blue);
+}
